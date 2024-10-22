@@ -1,98 +1,91 @@
-*{
-    padding:0px;
-    margin:0px;
-    box-sizing:border-box;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 
 
 #section-3 .contain-images {
-  position:relative;
-  width:90%;
-  margin:10px auto;
-  padding:15px;
-  height:60vh;
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    height: 60vh;
 }
 
 
-.contain-images img:nth-of-type(1){
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:2;
-    width:144px;
+.contain-images img:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 144px;
 }
 
-.contain-images img:nth-of-type(2){
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    width:188px;
+.contain-images img:nth-of-type(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 188px;
 }
 
-.contain-images img:nth-of-type(3){
-    position:absolute;
-    bottom:0;
-    right:0;
-    width:131px;
+.contain-images img:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 131px;
 
 }
 
-.contain-images img:nth-of-type(4){
-    position:absolute;
-    width:40%;
-    top:67%;
-    right:202px;
+.contain-images img:nth-of-type(4) {
+    position: absolute;
+    width: 40%;
+    top: 67%;
+    right: 202px;
 }
 
 
 /* 2 eme parties */
 .time-line {
-    margin-top:40px;
+    margin-top: 40px;
     /* text-align:center; */
     /* font-family:Montserrat; */
-    display:flex;
-    flex-direction:column;
-    gap:22px;
-    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 15px;
 }
 
-.time-line .titles{
-    text-align:center;
+.time-line .titles {
+    text-align: center;
 }
 
-.time-line .titles h1{
-    margin-top:12px;
-    color:#18599C;
+.time-line .titles h1 {
+    margin-top: 12px;
+    color: #18599C;
 }
 
-.time-line .contenu{
-    width:80%;
-    margin:4px auto;
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-    align-items:center;   
+.time-line .contenu {
+    width: 80%;
+    margin: 4px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
-.time-line .contenu p{
-    font-size:12px;
+.time-line .contenu p {
+    font-size: 12px;
 }
 
-.time-line  button{
-    width:130px;
-    padding:14px;
-    background-color:#D14A37;
-    border:none;
-    border-radius:50px;
-    color:#fff;
-    margin:auto;
+.time-line button {
+    width: 130px;
+    padding: 14px;
+    background-color: #D14A37;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    margin: auto;
 }
-
-
-
-
-
-
-
