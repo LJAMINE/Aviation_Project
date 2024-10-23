@@ -22,9 +22,8 @@
     width: 100%; 
     overflow-x: auto;  
     white-space: nowrap;  
-   
-   
-  }
+    
+}
   
 
 .images img {
@@ -33,6 +32,7 @@
     width: 250px;  
     height: auto;
     display: inline-block;
+    border-radius:150px ;
     
 }
 
@@ -79,7 +79,9 @@
     display: flex;
     justify-content: space-around;
     display: none;
-   
+} 
+.m2 img{
+    border-radius:150px ;
 } 
 
 
@@ -277,6 +279,7 @@ button{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+   
     
 } 
 
