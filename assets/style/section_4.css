@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+
+}
+p{
+    text-align: center;
+}
+.inovationP{
+position: absolute;
+left: 50%;
+font-size: 90%;
+}
+.header_accelerate{
+    margin-top: 42px;
+
+
+}
+
+.image_logo{
+    position: relative;
+    left: 80%;
+    height: 64%;
+    top:3%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    right: 32px;
+        /* bottom: 30px; */
+  
+
+}
+
+.image_logoflower{
+    position: relative;
+    left: 28%;
+ }
+
+ .mainpicture h3{
+    margin-top: 10px;
+text-align: center;
+color: white;
+ 
+ }
+ 
+ .mainpicture{
+    /* display: flex; */
+    /* overflow: scroll; */
+   height: 250px;
+   width:auto;
+   object-fit:contain;
+   padding: 10px;
+   background-position: center;
+
+
+ background-image: url("./../images/background\ plane.png");
+ }
+
+    .imagge img{
+        height: 12px;
+    }
+
+    .button-container {
+
+         
+        border-radius: 40px;
+         margin: 20px 50px;
+        cursor: pointer;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 2px;
+        height: 45px;
+        width: 250px;
+         border: transparent;
+         /* text-align: center; */
+             
+        
+      }
+
+      .button1{
+
+        color: white;
+
+        position: relative;
+        left: 20%;
+        background-color: #D14A37;
+        padding: 5px;
+        border-radius: 10px;
+        border: transparent;
+
+
+      }
+
+      .footer{
+        
+         padding-top: 6%;
+        margin-top: 20px;
+        background-color: #18599C;
+        height: auto;
+        /* background-repeat: no-repeat;
+        background-position:  center top; */
+
+
+    }
+    .image-logo-footer{
+      /* height: 50%;
+      width: 50%; */
+      position: relative;
+      left: 18%;
+      bottom: 40%;
+      
+    }
+
+
+    .footer p {
+        color: white;
+    }
+
+    .footer .images{
+        display: flex;
+        color: white;
+        border-radius: 90x;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 15px;
+      
+      }
+      .footer .service{
+        /* display: flex;
+flex-direction: column;
+column-gap: 20px; */
+        padding: 10px;
+         /* margin-left: 40 px; */
+        text-align: center;
+      }
+ 
+       .footer  .copyright   {
+         color: rgba(255, 255, 255, 0.808);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+         font-size: 14px;
+         padding-bottom: 10px;
+  
+      }  
+
+
+
+      .image-slider {
+        margin-top: 20px;
+        width: 100%; 
+        overflow-x: auto;  
+        white-space: nowrap;  
+      }
+      
+      .images {
+        display: inline-block;  
+      }
+      
+      .images img {
+        border-radius: 70px;
+        width: 300px;  
+        height: auto;
+        margin-right: 10px;   
+        display: inline-block;
+      }
+
+
+      @media (min-width:1024px)
+      
+      {
+       
+         .images{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+
+          /* align-items: center; */
+          /* justify-content: space-evenly; */
+         }
+
+
+         .grid{
+           position: relative;
+           right: 25%;
+          
+           
+         }
+         .grid h1{
+          font-size: 40px;
+          font-weight: bold;
+         }
+         /* .grid .image_logo{
+          height: 87%;
+         } */
+         .image_logo{
+          position: relative;
+          left: 87%;
+          height: 100%;
+          top:13%;
+      }
+              .header_accelerate{
+        position: relative;
+        /* bottom: 90%;
+        left: 15%; */
+        right: 18%;
+        bottom: 40%;
+        font-size: 47px;
+        font-weight: bold;    
+            
+            }
+
+    .image_logoflower{
+      position: relative;
+      left: 50%;
+       /*top: 90%; */
+       margin-top: -40%;
+      /* bottom: 40%; */
+      /* top: 20%; */
+      /* margin-top: 80px; */
+   }
+ 
+   .mainpicture{
+    /* height: 250px; */
+    /* width:auto; */
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+   /* object-fit: cover; */
+   /* background-position: center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center   ;
+}
+.button-container {
+
+         
+  border-radius: 40px;
+   margin: 20px 50px;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative  ;
+  left: 28%;
+  letter-spacing: 2px;
+  height: 45px;
+  width:350px;
+   /* border: 1px solid brown; */
+   /* text-align: center; */
+       
+  
+}
+
+.button1{
+
+
+  position: relative;
+  left: 15%;
+   
+}
+.footer{
+
+
+/* display: flex; */
+  /* padding: 90px; */
+
+  
+  
+
+
+}
+.footer .images{
+
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding-left: 10%;
+  /* position: relative;
+  right:60% ;
+  gap: 10px;
+  top: 40%; */
+}
+      
+.footer img{
+
+  /* gap: 5px; */
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); */
+
+  position: relative;
+ left: 6%;
+   /* top: 30%; */
+}
+.footer .mainParagraph{
+  text-align: center;  
+  padding-left: 10px;
+  display: flex;
+  
+
+}
+.footer .service{
+  display: flex;
+  justify-content: space-around;
+
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); */
+  margin-top: -212px;
+  position: absolute;
+  left: 56%;
+  gap: 96px;
+  height: 200px;
+
+  
+
+}
+        
+         
+         
+      }
+
+
+
+      
+     
