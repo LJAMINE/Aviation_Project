@@ -181,14 +181,14 @@
   
 .text::before {
     top: 0;
-    right: 5px;
+    right: 1rem;
     border-left: none;
     border-bottom: none;
 }
   
 .text::after {
-    bottom: 5px;
-    left: 5px;
+    bottom: 1rem;
+    left: 1rem;
     border-top: none;
     border-right: none;
 }
@@ -232,7 +232,7 @@
     width: 100%;                
 }
 
-/*--------------------------------------tablette ------------------------------------*/
+/*-------------------------------------- tablette ------------------------------------*/
    /* @media only screen and (min-width: 768px){
     .langue ul{ 
         border-radius: 15px;
@@ -294,6 +294,10 @@
 
 /*-------------------------------------- desktop ------------------------------------*/
 @media only screen and (min-width: 1024px){
+    .menu{
+        justify-content: center;
+    }
+
     .langue ul{ 
         border-radius: 15px;
         padding: 5px 10px;
@@ -304,6 +308,11 @@
     .langue ul li a.active {
         border-radius:10px;
         padding:2px 3px;
+    }
+
+    .menu .active{
+        border-bottom: 2px solid #18599C;
+        transition: 0.2s;
     }
 
     #principal h1{
@@ -334,6 +343,7 @@
         font-size: 20px;
         padding-top: 20px;
         padding-left: 30px;
+        padding-right: 30px;
     }
 
     .images-slider {       
