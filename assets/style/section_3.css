@@ -532,7 +532,7 @@
         width: 50%;
         bottom: 15%;
         left: 25%;
-        z-index: 0;
+        z-index: 6;
     }
 
     #section-3 .time-line {
