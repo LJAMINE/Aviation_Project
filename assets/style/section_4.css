@@ -34,7 +34,6 @@ font-size: 2rem;
 position: absolute;
 left: 50%;
 font-size: 90%;
-/* height: 50px; */
 }
 .header_accelerate{
   margin-top: 42px;
@@ -82,7 +81,7 @@ color: white;
  background-position: center;
 
 
-background-image: url("./../images/planeback.png");
+background-image: url("./../images/background\ plane.png");
 }
 
   .imagge img{
@@ -184,7 +183,7 @@ column-gap: 20px; */
 
 
 
-    .image-sliders {
+    .image-slider {
       margin-top: 20px;
       width: 100%; 
       overflow-x: auto;  
@@ -196,13 +195,12 @@ column-gap: 20px; */
       padding: 10px;
     }
     
-    .images-latest img {
+    .images img {
       /* border-radius: 70px; */
       width: 300px;  
       height: auto;
-      border-radius: 10px;
       /* margin-right: 10px;    */
-      padding: 7px;
+      /* padding-left: 30px; */
       display: inline-block;
       justify-content: space-between;
     }
@@ -252,11 +250,9 @@ color: blue;
 font-size: 3rem;
 }
 .grid-container h1 {
-  
-position: relative;
-  color: blue;
+text-align: center;
+color: blue;
 font-size: 3rem;
-right: 28%;
 }
 
 
@@ -304,39 +300,38 @@ right: 28%;
           color: white; /* Keep the same white text color */
       }
 
-      .image-sliders .images{
+      
+       .images{
         display: flex;
         justify-content: space-evenly;
-       
-      
-        }  
+        /* display: grid;
+        grid-template-columns: repeat(3,1fr); */
+        /* padding-left: 20px; */
 
-      
-       
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+       }
 
-       
+
+       .grid{
+         position: relative;
+         right: 11%;
+        
+         
+       }
        .grid h1{
         font-size: 40px;
         font-weight: bold;
        }
-      
-       .image_logo{
+
+           /* .image_logo{
         position: relative;
         left: 60%;
         height: 76%;
         top:20%;
-    }
-            .header_accelerate{
-      position: relative;
-     
-      right: 5%;
-      bottom: 40%;
-      font-size: 47px;
-      font-weight: bold;    
-          
-          }
+    } */
 
-  .image_logoflower{
+      .image_logoflower{
    
     width: 25%;
         margin-top: -24%;
@@ -345,12 +340,57 @@ right: 28%;
    
  }
 
- .mainpicture{
+ 
+       
+.grid .inovationP {
+  position: relative;
+        left: -51%;
+        top: -4%;
+ 
+}
+.grid{
+  /* position: relative;
+  right: 20%; */
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); */
+ 
   
+}
+
+       /* .grid .image_logo{
+        height: 87%;
+       } */
+       .image_logo{
+        position: relative;
+        left: 72%;
+        height: 82%;
+        top: 17%;
+    }
+    #stay h3{
+      color: white;
+    }
+            .header_accelerate{
+      position: relative;
+      /* bottom: 90%; */
+      /* left: 15%; */
+      right: 16%;
+      /* bottom: 4%; */
+      font-size: 3rem;
+      font-weight: bold;    
+          
+          }
+
+
+
+
+ .mainpicture{
+  /* height: 250px; */
+  /* width:auto; */
   padding-top: 40px;
   margin-top: 60px;
   margin-bottom: 30px;
-  height: 400px;
+ /* object-fit: cover; */
+ /* background-position: center; */
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center   ;
@@ -401,8 +441,9 @@ top: 40%; */
     
 .footer img{
 
-
-
+/* gap: 5px; */
+/* display: grid;
+grid-template-columns: repeat(3,1fr); */
 
 position: relative;
 left: 6%;
@@ -420,7 +461,8 @@ justify-content: start;
 display: flex;
 justify-content: space-around;
 
- 
+/* display: grid;
+grid-template-columns: repeat(3,1fr); */
 margin-top: -212px;
 position: absolute;
 left: 56%;
@@ -430,25 +472,57 @@ height: 200px;
 
 
 }
-
-.grid .inovationP {
-  position: relative;
-  left: -29%;
- 
-}
-.grid{
-  position: relative;
-  right: 20%;
-  /* display: grid;
-  grid-template-columns: repeat(3,1fr); */
- 
-  
-}
- 
+      
+       
        
     }
 
 
 
-     
+    /* @media (min-width: 768px) and (max-width: 1024px){
+   
+
+       .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+       .image_logo{
+        position: relative;
+        left: 90%;
+        height: 64%;
+        top:3%;
+    }
+    .image_logoflower{
+      position: relative;
+      left: 39%;
+   }
+   .mainpicture{
+  
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center   ;
+}
+.button-container {
+
+       position: relative;
+       left: 27%;
+ 
+       
+  
+}
+.button1{
+  position: relative;
+left: 13%;
+padding: 4px;
+ }
+.image-logo-footer {
+  position: relative;
+  left: 35%;
+}
+    } */
    
