@@ -339,7 +339,7 @@
 
     .contain-images img:nth-of-type(2) {
         width: 360px;
-        left:350px;
+        left: 350px;
     }
 
     .contain-images img:nth-of-type(3) {
@@ -356,8 +356,8 @@
 
     #section-3 .container .time-line {
         gap: 30px;
-        margin-left:-50px;
-        width:90%;
+        margin-left: -50px;
+        width: 90%;
     }
 
     /* 3eme partie */
@@ -412,8 +412,8 @@
 
     }
 
-    #section-3 .form .form-content input::placeholder{
-        font-size:20PX
+    #section-3 .form .form-content input::placeholder {
+        font-size: 20PX
     }
 
 
