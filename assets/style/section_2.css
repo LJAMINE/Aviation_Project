@@ -103,6 +103,7 @@
     margin-top: -140px;
 }  
 
+
 #main .plin-pekcher-2 img{
     display: none;
    
@@ -119,7 +120,7 @@
 
 
 #main h3{ 
-    color: #000000;
+   
     margin-top: 40px;
     margin-left: 25px;
     font-size: 1.5rem;
@@ -291,11 +292,12 @@ button{
    
 }  
 
+
 #main .plin-pekcher-2 img{
     display: block;
     position: absolute; 
     width: 900px;
-    margin-top: -50px;
+    margin-top: -150px;
     right: 0;
     
 }  
