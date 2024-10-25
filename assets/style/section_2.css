@@ -291,11 +291,12 @@ button{
    
 }  
 
+
 #main .plin-pekcher-2 img{
     display: block;
     position: absolute; 
     width: 900px;
-    margin-top: -50px;
+    margin-top: -150px;
     right: 0;
     
 }  
