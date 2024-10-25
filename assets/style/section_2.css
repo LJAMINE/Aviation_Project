@@ -16,7 +16,7 @@
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-.image-slider {
+.image-slider-harit {
     
     width: 100%; 
     overflow-x: auto;  
@@ -24,7 +24,7 @@
     
 }
   
-.images img {
+.images-harit img {
     margin-left: 21px;
     margin-right: 21px;
     width: 250px;  
@@ -35,6 +35,11 @@
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+ /* #main .paragrafe p{
+    display: flex;
+    justify-self: start;
+}  */
 
 
 .img-1-right{
@@ -52,7 +57,7 @@
 
 
 
-.contain-img{
+#main .contain-img{
     
     width: 100%;
 }
@@ -91,20 +96,20 @@
 } 
 
 
-.plin-pekcher img{
+#main .plin-pekcher img{
     position: absolute; 
     width: 320px;
-   right: 0;
-   margin-top: -140px;
+    right: 0;
+    margin-top: -140px;
 }  
 
-.plin-pekcher-2 img{
+#main .plin-pekcher-2 img{
     display: none;
    
 }  
 
 
-h1{ 
+#main h1{ 
     color: #18599C;
     margin-top: 40px;
     margin-left: 25px;
@@ -113,7 +118,7 @@ h1{
 }
 
 
-h3{ 
+#main h3{ 
     color: #000000;
     margin-top: 40px;
     margin-left: 25px;
@@ -122,7 +127,7 @@ h3{
 }
 
 
-.paragrafe{
+#main .paragrafe{
     display: flex;
     margin: 40px;
     justify-content: start;
@@ -130,6 +135,10 @@ h3{
     align-items: center;
     font-size: 1rem;
     font-family: 'Roboto', 'Arial', sans-serif;
+} 
+#main .paragrafe img{
+    height: 40px;
+    width: 40px;
 } 
 
 button{
@@ -143,21 +152,21 @@ button{
 }
 
 
-/* @media (min-width:768px) {
+@media (min-width:768px) {
 
-    h1{ 
+#main h1{ 
 
         font-size: 2.5rem;
     }
     
     
-    h3{ 
+#main h3{ 
 
         font-size: 1.75rem;
     }
     
     
-    .paragrafe{
+#main .paragrafe{
 
         font-size: 1rem;
     } 
@@ -177,35 +186,35 @@ button{
     width: 25%;
 } 
 
-.plin-pekcher img{
+#main .plin-pekcher img{
     display: none;
    
 }  
 
-.plin-pekcher-2 img{
+#main .plin-pekcher-2 img{
     display: block;
     position: absolute; 
     width: 400px;
-    margin-top: -50px;
-    right: 1px;
+    margin-top: 10px;
+    right: 0px;
     
 }  
 
 }
-*/
+
 @media (min-width:1024px) {
 
-    h1{ 
+#main h1{ 
         font-size: 3rem;
     }
     
     
-    h3{ 
+#main h3{ 
         font-size: 2rem;
     }
     
     
-    .paragrafe{
+#main .paragrafe{
         font-size: 1rem;
     } 
 
@@ -223,7 +232,7 @@ button{
     width: 25%;
 } 
 
-.plin-pekcher img{
+#main .plin-pekcher img{
     display: none;
    
 }  
@@ -246,19 +255,19 @@ button{
    
 } 
 
-.plin-pekcher-2 img{
+#main .plin-pekcher-2 img{
     display: block;
     position: absolute; 
     width: 500px;
-    margin-top: -60px;
+    margin-top: 60px;
     right: 0;
 }  
 
 
 }
-/* @media (min-width:1440px) {
+@media (min-width:1440px) {
 
-    h1{ 
+#main h1{ 
         font-size: 3.5rem;
     }
 
@@ -277,16 +286,16 @@ button{
     width: 25%;
 } 
 
-.plin-pekcher img{
+#main .plin-pekcher img{
     display: none;
    
 }  
 
-.plin-pekcher-2 img{
+#main .plin-pekcher-2 img{
     display: block;
     position: absolute; 
     width: 900px;
-    margin-top: -150px;
+    margin-top: -50px;
     right: 0;
     
 }  
@@ -310,7 +319,7 @@ button{
 } 
 
 
-} */
+} 
 
 
 

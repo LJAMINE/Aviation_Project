@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Arial', sans-serif;
 }
+
+
 /* ----------------------------------------------NAVBAR--------------------------------------------------- */
 
 .navbar{
@@ -49,26 +51,20 @@
     display:none;
 }
 
-
-
-
-
-
 /* --------------------------------------HOME----------------------------------------------- */
 
-#main img{
+#principal img{
     width: 100%;
     height:auto;
-    margin-bottom: 20px;
 }
 
-h1{
+#principal h1{
     font-size: 32px;
     color:#18599C;
     text-align: center;
 }
 
-#main p{
+#principal p{
     font-size: 16px;
     margin:10px;
     text-align: center;
@@ -79,14 +75,13 @@ h1{
     display: grid;          
     grid-template-columns: repeat(2,1fr);
     gap:10px;
-    padding:10px;
-    box-shadow: 0   5px 10px 0 rgb(0, 0, 0);
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0 ,0.3);
     border-radius: 30px;
     margin: 10px;
 }
 
 .contain div{               
-    display: flex;             
+    display: flex;
     align-items: center;        
     border-radius: 30px;  
     padding: 10px;
@@ -94,7 +89,7 @@ h1{
 }
 
 .contain div img{
-    width:  40px;
+    width:  50px;
     height: auto;
     padding:5px;
 }
@@ -117,6 +112,7 @@ h1{
 
 .contain p{
     font-weight: bold;
+    font-size:1rem;
 }
 
 .image-container {
@@ -128,7 +124,6 @@ h1{
     justify-content: center;    
     align-items: center;     
 }
-
 
 .image-container img {
     position: absolute;         
@@ -237,10 +232,8 @@ h1{
     width: 100%;                
 }
 
-
-
 /*--------------------------------------tablette ------------------------------------*/
-  /* @media only screen and (min-width: 768px){
+   /* @media only screen and (min-width: 768px){
     .langue ul{ 
         border-radius: 15px;
         padding: 5px 10px;
@@ -253,10 +246,9 @@ h1{
         padding:2px 3px;
     }
 
-    h1{
-    }
+    
 
-    #main p{
+    #principal p{
         margin:20px;
     }
 
@@ -269,7 +261,7 @@ h1{
         grid-column: span 4 ;
     }
 
-    #grid-container{
+    #grid-contain{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin:70px 20px;
@@ -298,7 +290,7 @@ h1{
     .craft span{
         top: 55vh;
     }
-}   */
+}    */
 
 /*-------------------------------------- desktop ------------------------------------*/
 @media only screen and (min-width: 1024px){
@@ -314,11 +306,11 @@ h1{
         padding:2px 3px;
     }
 
-    h1{
+    #principal h1{
         font-size: 54px;
     }
 
-    #main p{
+    #principal p{
         font-size: 18px;
         margin:20px;
     }
@@ -332,7 +324,7 @@ h1{
         grid-column: span 4 ;
     }
 
-    #grid-container{
+    #grid-contain{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin:100px 20px;
